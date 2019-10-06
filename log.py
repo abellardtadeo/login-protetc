@@ -6,26 +6,32 @@ def menu():
       while True:
            print("")
            os.system("clear")
-           print('\033[1;36;40m<───────────────[ DarkCurut08 ] ───────────────>')
-           print('')
-           os.system('date | lolcat')
-           print("\033[1;93m")
-           print(" \033[1;92m   Silahkan Login Eaa Sayang')")
-           print("\033[1;93m")
-           print("  <───────────────[ DarkCurut08 ] ───────────────>")
+           os.system("figlet -f slant '   wellcome' | lolcat")
+           print('\033[1;96m ============================================================')
+           print(' ||  +--------------------------------------------------+  ||')
+           print(' ||  | Creator   : Moreno77                             |  ||')
+           print(' ||  +--------------------------------------------------+  ||')
+           print(' ||  | Youtube   : https://youtube.com/c/DarkCurut08    |  ||')
+           print(' ||  | github    : https://github.com/DarkCurut08       |  ||')
+           print(' ||  | WhatsApp  : 085606753071                         |  ||')
+           print(' ||  | Team      : Curut BlackHat                       |  ||')
+           print(' ||  +--------------------------------------------------+  ||')
+           print(' ============================================================')
            print("")
            try:
-                x = str(input('\033[1;92mUsername \033[1;93m: '))
+                x = str(input('\033[1;92m [?] Username \033[1;93m: '))
                 print("")
-                e = getpass('\033[1;92mPassword \033[1;93m: ')
+                e = getpass('\033[1;92m [?] Password \033[1;93m: ')
                 print ("")
-                if x=="ABC" and e=="123":
+#silahkan ganti username+passwordnya gan
+                if x=="Username" and e=="Password":
+#jangan edit yg lain kalo gak mau eror
                    print('Login Sukses Mohon Tunggu Sebentar...')
                    time.sleep(1)
                    os.system('clear')
                    print('')
                    os.system('figlet ' + x + ' | lolcat')
-                   print('\033[1;92m ────────────────────────────────────── ')
+                   print('\033[1;92m ────────────────────────────────|by Moreno77 ')
                    print("")
                    break
                 else:
@@ -33,7 +39,7 @@ def menu():
                       print("")
                       print("")
                       print("")
-                      print("\033[1;91m     Password/Usr Name Salah")
+                      print("\033[1;91m     [!] Username/Password Salah")
                       time.sleep(2)
                       print("")
            except Exception:
@@ -43,7 +49,7 @@ def menu():
                       print("")
                       print("")
                       print("")
-                      print("\033[1;91m     Password/Usr Name Salah")
+                      print("\033[1;91m     [!] Username/Password Salah")
                       time.sleep(2)
            except KeyboardInterrupt:
                       print("")
@@ -52,6 +58,6 @@ def menu():
                       print("")
                       print("")
                       print("")
-                      print("\033[1;91m     Password/Usr Name Salah")
+                      print("\033[1;91m     [!] Username/Password Salah")
                       time.sleep(2)
 menu()
