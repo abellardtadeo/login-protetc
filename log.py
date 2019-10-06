@@ -19,7 +19,7 @@ def menu():
                 print("")
                 e = getpass('\033[1;36mPassword \033[1;93m: ')
                 print ("")
-                if x=="MRTEAMZ" and e=="MRTEAMZ":
+                if x=="A" and e=="A":
                    print('Tunggu Sebentar...')
                    time.sleep(2)
                    os.system('clear')
